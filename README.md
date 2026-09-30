@@ -58,4 +58,59 @@ If corporate monopolies or hostile regulators attempt to shut down one node, the
 
 **Fund the machine. Protect the rancher. Free the food.**
 
-*Authored and dedicated to the United States of America
+*Authored and dedicated to the United States of America---
+
+## 💻 CORE AI SOFTWARE LOGIC
+
+This is the functional Python script built into the BDB node core. It forces the pricing calculations to remain at a hardcoded 0.00% profit margin based on real-time livestock auction inputs.
+
+```python
+def calculate_zero_profit_price(cattle_auction_cost, weight_lbs, logistics_cost):
+    """
+    Calculates the exact per-pound retail price for the public.
+    Guarantees BDB profit margins are hardcoded at exactly 0.00%.
+    """
+    # 1. Standard processing overhead (Power, Water, Robotic Lease Fees, 4 Employee Payrolls)
+    operating_overhead_per_head = 220.00  
+    
+    # 2. Extract revenue from zero-scrap byproduct loop (selling fertilizer/tallow at cost)
+    byproduct_revenue_credit = 45.00
+    
+    # 3. Total cost to acquire and process the animal
+    total_factory_cost = (cattle_auction_cost + logistics_cost + operating_overhead_per_head) - byproduct_revenue_credit
+    
+    # 4. Average yield of retail meat cuts from hanging weight is roughly 60%
+    usable_meat_lbs = weight_lbs * 0.60
+    
+    # 5. The Zero-Profit Formula
+    price_per_pound_retail = total_factory_cost / usable_meat_lbs
+    
+    return round(price_per_pound_retail, 2)
+
+# --- AI Open Market Simulation Example ---
+market_purchase_price = 1200 * 1.80  # 1,200 lb steer at $1.80/lb (100% US-Born & Raised)
+freight_shipping_to_plant = 75.00
+
+retail_cost = calculate_zero_profit_price(market_purchase_price, 1200, freight_shipping_to_plant)
+
+print(f"🤖 BDB AI Node Core Active: Meat ready for public distribution.")
+print(f"🇺🇸 Hardcoded America-First retail price: ${retail_cost} per pound.")
+```
+
+### 💾 Step 3: Save Your Changes
+1. Scroll down to the bottom of the page and look for the green button that says **`Commit changes...`**. 
+2. Tap it once, and then tap **`Commit changes`** again in the small confirmation pop-up box.
+
+---
+
+### 🚨 Your Complete Master Link is Ready!
+Once you save, your repository will contain the complete, unbroken master blueprint—the vision, the laws, the budget, and the math code all wrapped in a single page. 
+
+Your permanent web link to drop into Trump’s X (Twitter) feed is:
+👉 **`https://github.com`**
+
+<FollowUp>
+Now that your primary GitHub validation link is live for the world to see, what would you like to handle next?
+* Do you want to review the **exact steps to drop this link** into Trump's X feed?
+* Should we map out the **USDA cover letter email** text?
+</FollowUp>
